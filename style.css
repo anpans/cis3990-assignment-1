@@ -1,0 +1,139 @@
+body {
+    margin: 30px 60px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#location-div {
+    text-align: center;
+    width: 100%;
+    font-size: 80px;
+}
+
+#temp-main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#temp-main-display {
+    display: inline-block;
+    font-size: 280px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#temp-main-icon {
+    display: inline-block;
+    font-size: 180px;
+    vertical-align: middle;
+}
+
+#rain-info {
+    font-size: 60px;
+    text-align: center;
+}
+
+#rain-until {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#rain-alert {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rect-button {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: orange;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+#widget-panel {
+    width: 100%;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.widget-column {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#left-column {
+    margin-right: 60px;
+}
+
+.widget {
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+#forecast-widget td {
+    padding: 10px;
+}
+
+#forecast-widget td:first-child {
+    padding-right: 20px;
+    text-align: left;
+    border-right: 1px solid black;
+}
+
+#forecast-widget td:nth-child(2) {
+    padding-right: 0px;   
+}
+
+#forecast-widget table {
+    margin: 10px 0px;
+}
+
+#dots-button {
+    border-radius: 100px;
+    padding: 5px 15px;
+}
+
+
+.widget-title, .widget-content {
+    display: block;
+}
+
+#air-widget .widget-content {
+    color: green;
+}
+
+#wind-widget .widget-content {
+    color: red;
+}
+
+#bottom-section {
+    width: 100%;
+    text-align: right;
+}
+
+#edit-button {
+    border-radius: 100px;
+    font-size: 100px;
+    padding: 10px 30px;
+}
+
+#curr-location {
+    display: block;
+}
+
+.other-location {
+    margin-right: 20px;
+}
+
+#location-search {
+    font-size: 50px;
+}
